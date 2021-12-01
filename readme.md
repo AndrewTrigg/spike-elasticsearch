@@ -39,3 +39,5 @@ So, the parser would look for all objects that contain a 'name' property that ha
 
 The third argument is an array of values that you would like returned once the relevant object has been found. You can use dot notation here to search for nested properties within the found object.
 You can also pass these values as strings, or you can pass the values as tuples - the first element to be the name of the value you want returned, and the second element to give it a different key on the returned object.
+
+Example usage of the parser can be found in the `using-the-parser.js` file. Example credas data is imported from `credas-example-data.json` and parsed if you run `node using-the-parser.js`. This runs standalone, separate from the rest of the application.
